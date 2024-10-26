@@ -1,0 +1,38 @@
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  
+  .skills h2 {
+    color: #00ffff;
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between skills */
+  }
+  
+  .skill {
+    background-color: rgba(0, 255, 255, 0.2);
+    border: 2px solid #00ffff;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+    transition: transform 0.3s; /* Smooth scaling effect */
+  }
+  
+  .skill:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  .skill i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #00ffff; /* Icon color */
+  }
+  
