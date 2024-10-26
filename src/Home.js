@@ -1,16 +1,20 @@
+// Home.js
 import React from 'react';
 import './Home.css';
 
 const Home = () => {
-  const handleViewProjects = () => {
-    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+  const handleViewAboutMe = () => {
+    document.getElementById('aboutme').scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div className="home">
       <img src='./profile.jpg' alt="Dakota Campbell" className="profile-image" />
-      <h1>Hi, I'm Dakota</h1>
-      <button className="view-projects" onClick={handleViewProjects}>View My Projects</button>
+      <h1>
+        Hello, I'm <span className="name">Dakota</span>.
+      </h1>
+      <p>A Fullstack Software Engineer.</p>
+      <button className="button" onClick={handleViewAboutMe}>Let's Get Started!</button>
     </div>
   );
 };
