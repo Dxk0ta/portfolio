@@ -1,20 +1,48 @@
+/* Home.css */
+
 .home {
-    text-align: center;
-    height: 100vh;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, #00ffff, #007fff);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    
-    color: white;
-  }
+  height: 100vh; /* Make it full screen height */
+  display: flex; /* Center content */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  color: rgb(70, 39, 39); /* Text color */
+}
   
   .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #00ffff;
+    border: 3px solid #8db8b8;
+    opacity: inherit;
     margin-bottom: 20px;
     object-fit: cover;
   }
   
+  .name {
+    display: inline-block;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #ff4e50, #fc7b7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.2s ease, background 0.2s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button {
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: rgba(0, 255, 255, 0.7);
+    transform: scale(1.05);
+  }
