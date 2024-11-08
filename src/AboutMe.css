@@ -1,4 +1,4 @@
-.aboutme {
+/* .aboutme {
   text-align: center;
   position: relative;
   display: flex;
@@ -26,12 +26,71 @@
   max-width: 600px;
   line-height: 1.6;
   margin: 0 auto 15px; /* Add some space between paragraphs */
-}
+/*}
 
-.aboutme-quote {
-  font-style: italic; /* Italic style for the quote */
-  color: #555; /* Slightly lighter color */
+/*.aboutme-quote {
+  font-style: italic;
+  color: #555;
   max-width: 600px;
-  margin: 0 auto; /* Center the quote */
-  padding-top: 15px; /* Space above the quote */
-}
+  margin: 0 auto; 
+  padding-top: 15px; 
+} */
+/* Container */
+.aboutme {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+    height: 100vh;
+  }
+  
+  .aboutme-content {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    gap: 40px;
+  }
+  
+  /* Text Section */
+  .aboutme-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #00ffff;
+  }
+  
+  .aboutme-description {
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  /* Main Image */
+  .aboutme-image img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #f5f5f5;
+    object-fit: cover;
+  }
+  
+  /* Gallery */
+  .aboutme-gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .aboutme-gallery img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .aboutme-gallery img:hover {
+    transform: scale(1.05);
+  }
