@@ -6,7 +6,7 @@
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
-  color: rgb(70, 39, 39); /* Text color */
+  color: white; /* Text color */
 }
   
   .profile-image {
@@ -22,7 +22,7 @@
   .name {
     display: inline-block;
     font-size: 2.5rem;
-    background: linear-gradient(90deg, #ff4e50, #fc7b7b);
+    background: linear-gradient(90deg, #3431ec, hsl(222, 64%, 63%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: transform 0.2s ease, background 0.2s ease;

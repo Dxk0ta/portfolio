@@ -32,7 +32,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className="card" key={index}>
             <h3>{project.title}</h3>
-            <p>{project.description}</p>
+            <p className='project-description'>{project.description}</p>
             <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
           </div>
         ))}
