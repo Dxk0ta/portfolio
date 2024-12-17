@@ -10,19 +10,19 @@
 }
   
   .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid #8db8b8;
+    width: 240px;
+    height: 340px;
+    /* border-radius: 70%;
+    border: 3px solid #8db8b8; */
     opacity: inherit;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     object-fit: cover;
   }
   
   .name {
     display: inline-block;
     font-size: 2.5rem;
-    background: linear-gradient(90deg, #3431ec, hsl(222, 64%, 63%));
+    background: linear-gradient(90deg, #3431ec, hsl(222, 56%, 56%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: transform 0.2s ease, background 0.2s ease;

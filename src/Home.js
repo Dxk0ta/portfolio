@@ -1,7 +1,7 @@
 // Home.js
 import React from 'react';
 import './Home.css';
-import profilePicture from './Assets/profilepicture.jpg'
+import aboutPicture from './Assets/aboutpicture.jpg'
 
 const Home = () => {
   const handleViewAboutMe = () => {
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <img src={profilePicture} alt="Dakota Campbell" className="profile-image" />
+      <img src={aboutPicture} alt="Dakota Campbell" className="profile-image" />
       <h1>
         Hello, I'm <span className="name">Dakota</span>.
       </h1>
