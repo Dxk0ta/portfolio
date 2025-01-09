@@ -4,35 +4,54 @@
     border-radius: 10px;
     height: 100vh;
   }
-  
-  .skills h2 {
+
+.skills h2 {
     color: #00ffff;
     margin-bottom: 20px;
   }
-  
-  .skills-container {
+
+.skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Space between skills */
   }
-  
-  .skill {
+
+.skill {
+    position: relative;
     background-color: rgba(0, 255, 255, 0.2);
     border: 2px solid #00ffff;
     padding: 20px; /* Added padding for better spacing */
-    border-radius: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
     display: flex;
-    align-items: center; /* Center the icon and text vertically */
-    transition: transform 0.3s; /* Smooth scaling effect */
+    align-items: center; /* Center the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow effect */
   }
-  
-  .skill:hover {
-    transform: scale(1.1); /* Scale effect on hover */
+
+.skill:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.7); /* Enhance glow on hover */
   }
-  
-  .skill i {
-    margin-right: 10px; /* Space between icon and text */
+
+.skill-name {
+    display: none;
+    position: absolute;
+    bottom: -25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+.skill:hover .skill-name {
+    display: block;
+  }
+
+.skill i {
     color: #00ffff; /* Icon color */
   }
-  
