@@ -16,7 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Skills
 Front-End: React, Vue.js, JavaScript, TypeScript, HTML, CSS
+
 Back-End: Node.js, Express, MySQL, MongoDB, PostgreSQL
+
 Tools: Git, GitHub, Heroku, Netlify, RESTful APIs, React Query, Agile
 
 ### Projects
