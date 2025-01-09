@@ -1,8 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Set-Up
 
 In the project directory, you can run:
 
@@ -11,60 +7,54 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dakota Campbell's Portfolio
+Welcome to my portfolio! I’m Dakota Campbell, a Software Engineer with experience in full-stack development. Below you'll find my projects, skills, and how to get them up and running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Skills
+Front-End: React, Vue.js, JavaScript, TypeScript, HTML, CSS
+Back-End: Node.js, Express, MySQL, MongoDB, PostgreSQL
+Tools: Git, GitHub, Heroku, Netlify, RESTful APIs, React Query, Agile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Projects
 
-### `npm run eject`
+#### Soliloquy
+A full-stack blog platform that lets users create emotion-driven posts with GIFs powered by the GIPHY API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tech: React, Node.js, Express, MongoDB, GIPHY API
+How to Run:
+Clone the repo: git clone https://github.com/dakotacampbell/soliloquy.git
+Install dependencies: npm install
+Run the app: npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### CineSearch
+A movie search app that uses the Movie Database API to find movies and TV shows.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech: React, JavaScript, CSS, Movie Database API
+How to Run:
+Clone the repo: git clone https://github.com/dakotacampbell/cinesearch.git
+Install dependencies: npm install
+Run the app: npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Bloom
+A task management app for tracking goals and daily tasks.
 
-## Learn More
+Tech: React, Node.js, Express, PostgreSQL, CSS
+How to Run:
+Clone the repo: git clone https://github.com/dakotacampbell/bloom.git
+Install dependencies: npm install
+Set up the database
+Run the app: npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Experience
+Software Engineer I - Code Mythic
+June 2024 - Present
+I contribute to building web applications, focusing on both front-end and back-end development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact
+Email: dxkotacamps@gmail.com
+LinkedIn: linkedin.com/in/dakotacampbell
+GitHub: github.com/dakotacampbell
