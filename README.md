@@ -60,6 +60,7 @@ Run the app:
 ### Experience
 Software Engineer I - Code Mythic
 June 2024 - Present
+
 I contribute to building web applications, focusing on both front-end and back-end development.
 
 ### Contact
