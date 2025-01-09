@@ -1,18 +1,18 @@
-## Set-Up
+## Dakota Campbell's Portfolio
+Welcome to my portfolio! I’m Dakota Campbell, a Software Engineer with experience in full-stack development. Below you'll find my projects, skills, and how to get them up and running.
+
+### Set-Up
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+#### `npm test`
 
-### `npm run build`
-
-### Dakota Campbell's Portfolio
-Welcome to my portfolio! I’m Dakota Campbell, a Software Engineer with experience in full-stack development. Below you'll find my projects, skills, and how to get them up and running.
+#### `npm run build`
 
 ### Skills
 Front-End: React, Vue.js, JavaScript, TypeScript, HTML, CSS
@@ -27,8 +27,10 @@ A full-stack blog platform that lets users create emotion-driven posts with GIFs
 Tech: React, Node.js, Express, MongoDB, GIPHY API
 How to Run:
 Clone the repo: git clone https://github.com/dakotacampbell/soliloquy.git
-Install dependencies: npm install
-Run the app: npm start
+Install dependencies: 
+#### `npm install`
+Run the app: 
+#### `npm start`
 
 #### CineSearch
 A movie search app that uses the Movie Database API to find movies and TV shows.
@@ -36,8 +38,10 @@ A movie search app that uses the Movie Database API to find movies and TV shows.
 Tech: React, JavaScript, CSS, Movie Database API
 How to Run:
 Clone the repo: git clone https://github.com/dakotacampbell/cinesearch.git
-Install dependencies: npm install
-Run the app: npm start
+Install dependencies: 
+#### `npm install`
+Run the app: 
+#### `npm start`
 
 #### Bloom
 A task management app for tracking goals and daily tasks.
@@ -47,7 +51,8 @@ How to Run:
 Clone the repo: git clone https://github.com/dakotacampbell/bloom.git
 Install dependencies: npm install
 Set up the database
-Run the app: npm start
+Run the app: 
+#### `npm start`
 
 ### Experience
 Software Engineer I - Code Mythic
