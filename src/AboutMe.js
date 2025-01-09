@@ -17,7 +17,7 @@ const AboutMe = () => {
             Software Developer from  <strong>Los Angeles, California</strong>.
           </p>
           <p className="aboutme-description">
-          Hi, I’m Dakota! I’m a software engineer who genuinely enjoys figuring things out—whether it’s debugging a tricky function or diving into a new framework. I’m always up for a challenge, a fresh tech stack, or an excuse to refactor code I swore was fine yesterday.
+          Hi, I'm Dakota Campbell, a passionate Full Stack Software Developer with a love for creating visually stunning and user-friendly applications. My favorite part of development lies in front-end design, where I transform ideas into beautiful, interactive experiences. Outside of coding, I cherish time with my wife and animals, and I thrive on collaboration, hard work, and strong ethics both on and off the screen. Whether I'm tackling a challenging project or cheering on my favorite sports teams, I bring enthusiasm, dedication, and a genuine love for problem-solving to everything I do.
           </p>
         </div>
         <div className="aboutme-image">
