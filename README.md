@@ -49,7 +49,8 @@ A task management app for tracking goals and daily tasks.
 Tech: React, Node.js, Express, PostgreSQL, CSS
 How to Run:
 Clone the repo: git clone https://github.com/dakotacampbell/bloom.git
-Install dependencies: npm install
+Install dependencies: 
+#### `npm install`
 Set up the database
 Run the app: 
 #### `npm start`
