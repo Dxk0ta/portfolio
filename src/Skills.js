@@ -2,7 +2,6 @@ import React from 'react';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faPython, faHtml5, faCss3, faReact, faNodeJs, faVuejs, faSass } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
   const skills = [
@@ -14,13 +13,6 @@ const Skills = () => {
     { name: "Node.js", icon: faNodeJs },
     { name: "Vue.js", icon: faVuejs },
     { name: "SASS", icon: faSass },
-    { name: "SQL", icon: faDatabase },
-    { name: "NoSQL", icon: faDatabase },
-    { name: "Sequelize", icon: faDatabase },
-    { name: "Express.js", icon: faNodeJs },
-    { name: "Restful Routing", icon: faCodeBranch },
-    { name: "Next.js", icon: faCodeBranch },
-    { name: "Django", icon: faCodeBranch },
   ];
 
   return (
