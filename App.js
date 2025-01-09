@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import './App.css';
-import Home from './Home';
-import Skills from './Skills';
-import Projects from './Projects';
-import Contact from './Contact';
-import AboutMe from './AboutMe';
+import Home from './src/Home';
+import Skills from './src/Skills';
+import Projects from './src/Projects';
+import Contact from './src/Contact';
+import AboutMe from './src/AboutMe';
 
 const App = () => {
   const [showNav, setShowNav] = useState(false);
