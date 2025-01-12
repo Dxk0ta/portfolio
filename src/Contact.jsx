@@ -3,6 +3,7 @@ import './Contact.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,20 +19,29 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.send(
-      'YOUR_SERVICE_ID',         // Replace with your EmailJS Service ID
-      'YOUR_TEMPLATE_ID',        // Replace with your EmailJS Template ID
-      formData,
-      'YOUR_USER_ID'             // Replace with your EmailJS User ID
-    )
-    .then(() => {
-      setStatusMessage('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '' });
-    })
-    .catch((error) => {
-      console.error('Error sending email:', error);
-      setStatusMessage('Failed to send message. Please try again later.');
-    });
+
+    // Prepare template parameters
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        'service_0zquyhu',         // Replace with your EmailJS Service ID
+        'template_iieowqb',        // Replace with your EmailJS Template ID
+        templateParams,
+        'DxXiOmyAy4e7JeARz'          // Replace with your EmailJS Public Key
+      )
+      .then(() => {
+        setStatusMessage('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+        setStatusMessage('Failed to send message. Please try again later.');
+      });
   };
 
   return (
@@ -66,8 +76,12 @@ const Contact = () => {
         {statusMessage && <p className="status-message">{statusMessage}</p>}
       </form>
       <div className="social-icons">
-        <a href="https://linkedin.com/in/dxk0ta" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://github.com/Dxk0ta" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://linkedin.com/in/dxk0ta" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Dxk0ta" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
       </div>
     </div>
   );
