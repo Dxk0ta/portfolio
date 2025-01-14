@@ -1,99 +1,111 @@
-/* .aboutme {
-  text-align: center;
-  position: relative;
+.aboutme {
+  padding: 40px;
+  padding-top: 170px;
+  max-width: 1000px; /* Adjust for desktop */
+  width: 90%; /* Add width for responsiveness */
+  margin: auto;
+  text-align: left;
+  min-height: 100vh; /* Changed from height to min-height */
+}
+
+.aboutme-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 50px 20px;
-  height: 100vh;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  font-family: 'Arial', sans-serif;
+  margin-top: 75px;
+  gap: 40px;
 }
 
 .aboutme-title {
-  font-size: 2.5em;
-  color: #007fff;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #00ffff;
 }
 
 .aboutme-description {
-  font-size: 1.2em;
-  color: #333;
-  max-width: 600px;
+  font-size: 1.1rem;
+  color: white;
   line-height: 1.6;
-  margin: 0 auto 15px; /* Add some space between paragraphs */
-/*}
+  margin: 10px 0;
+}
 
-/*.aboutme-quote {
-  font-style: italic;
-  color: #555;
-  max-width: 600px;
-  margin: 0 auto; 
-  padding-top: 15px; 
-} */
-/* Container */
-.aboutme {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
-    text-align: left;
-    height: 100vh;
-  }
-  
+.aboutme-image img {
+  width: 200px; /* Default size for larger screens */
+  max-width: 50%; /* Ensure the image scales but doesn't shrink unnecessarily */
+  min-width: 150px; /* Ensure the image doesn’t shrink below this size */
+  border-radius: 50%;
+  border: 2px solid #00ffff;
+  object-fit: cover;
+}
+
+.aboutme-gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.aboutme-gallery img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid #00ffff;
+}
+
+.aboutme-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 255, 255, 0.7);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
   .aboutme-content {
-    display: flex;
-    align-items: center;
-    margin-top: 75px;
-    gap: 40px;
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center-align content */
+    margin-top: 20px; /* Reduce top margin */
+    gap: 20px; /* Reduce gap between items */
   }
-  
-  /* Text Section */
+
   .aboutme-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0;
-    color: #00ffff;
+    font-size: 2rem; /* Scale down font size */
   }
-  
+
   .aboutme-description {
-    font-size: 1.1rem;
-    color: white;
-    line-height: 1.6;
-    margin: 10px 0;
+    font-size: 1rem; /* Adjust text size for readability */
   }
-  
-  /* Main Image */
+
   .aboutme-image img {
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid #f5f5f5;
-    object-fit: cover;
-    border: 2px solid #00ffff;
+    width: 50%; /* Use a percentage for responsiveness */
+    max-width: 200px; /* Set a max width for balance */
+    min-width: 150px; /* Ensure the image doesn’t shrink too much */
   }
-  
-  /* Gallery */
-  .aboutme-gallery {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    justify-content: center;
-  }
-  
+
   .aboutme-gallery img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    border: 2px solid #00ffff;
+    width: 80px; /* Smaller gallery images */
+    height: 80px;
   }
-  
-  .aboutme-gallery img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.7); /* Enhance glow on hover */
+}
+
+@media (max-width: 480px) {
+  .aboutme-title {
+    font-size: 1.8rem; /* Further reduce font size for small devices */
   }
+
+  .aboutme-description {
+    font-size: 0.9rem; /* Smaller text for compact screens */
+  }
+
+  .aboutme-image img {
+    width: 70%; /* Ensure it scales appropriately on very small screens */
+    max-width: 180px; /* Set a max width to prevent it from being too large */
+    min-width: 120px; /* Prevent it from being too small */
+  }
+
+  .aboutme-gallery img {
+    width: 60px; /* Scale down gallery images further */
+    height: 60px;
+  }
+}
